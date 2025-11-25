@@ -7,6 +7,7 @@ import Hero from "./assets/component/portfolio/Hero";
 import Project from "./assets/component/portfolio/Project";
 import Skill from "./assets/component/portfolio/Skill";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Books from "./assets/component/bookStore/books";
 
 export default function App() {
   return (
@@ -27,6 +28,7 @@ export default function App() {
       <Project/>
       <Contacts/>
         <Footer/>
+        {/* <Books/> */}
     </>
   );
 }
